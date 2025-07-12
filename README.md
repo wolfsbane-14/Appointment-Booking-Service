@@ -199,13 +199,3 @@ spring:
     type: caffeine
 ```
 
-## Testing
-
-The application includes comprehensive testing with all required endpoints:
-
-1. ✅ **POST /bookings** - Creates bookings with conflict detection
-2. ✅ **GET /bookings** - Lists bookings with filtering and pagination
-3. ✅ **DELETE /bookings/{id}** - Deletes bookings with proper status codes
-4. ✅ **GET /bookings/availability** - Shows available time slots
-
-All endpoints return the correct HTTP status codes as specified in the requirements. 
