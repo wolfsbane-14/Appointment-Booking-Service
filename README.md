@@ -11,7 +11,7 @@ A Kotlin + Spring Boot microservice for scheduling appointments between clients 
 - **Pagination**: Efficient listing with pagination support
 - **Validation**: Comprehensive input validation and error handling
 
-## Technology Stack
+## Built with
 
 - **Kotlin** - Primary language
 - **Spring Boot 3.2.0** - Framework
@@ -23,7 +23,7 @@ A Kotlin + Spring Boot microservice for scheduling appointments between clients 
 ## API Endpoints
 
 ### 1. POST /bookings
-Create a new booking. Rejects overlapping appointments.
+Create a new booking. Fails if the time slot is already booked.
 
 **Request Body:**
 ```json
